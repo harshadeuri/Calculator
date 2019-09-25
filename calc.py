@@ -1,6 +1,6 @@
 def fnc(choice):
-	a=int(input("Enter first number"))
-	b=int(input("Enter second number"))
+	a=int(input("Enter the first number"))
+	b=int(input("Enter the second number"))
 	if choice==1:
 		ADD(a,b)
 		
@@ -16,8 +16,8 @@ def fnc(choice):
 
 
 
-print("MENU")
-print("1. ADD")
+print("Calculator Menu")
+print("1. Add")
 print("2. Subtract")
 print("3. Multiply")
 print("4. Divide")
