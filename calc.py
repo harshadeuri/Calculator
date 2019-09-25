@@ -4,18 +4,20 @@ print("2. Subtract")
 print("3. Multiply")
 print("4. Divide")
 choice=int(input("Make a choice"))
+a=int(input("Enter first number"))
+b=int(input("Enter second number"))
 
 
 if choice==1:
-	ADD()
+	ADD(a,b)
 	
 elif choice==2:
-	Subtract()
+	Subtract(a,b)
 		
 elif choice==3:
-	Multiply()
+	Multiply(a,b)
 	
 elif choice==4:
-	Divide()
+	Divide(a,b)
 		
 
