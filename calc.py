@@ -1,27 +1,7 @@
-def fnc(choice):
-	a=int(input("Enter the first number"))
-	b=int(input("Enter the second number"))
-	if choice==1:
-		ADD(a,b)
-		
-	elif choice==2:
-		Subtract(a,b)
-			
-	elif choice==3:
-		Multiply(a,b)
-		
-	elif choice==4:
-		Divide(a,b)
-		
-
-
-
-print("Calculator Menu")
-print("1. Add")
-print("2. Subtract")
-print("3. Multiply")
-print("4. Divide")
-choice=int(input("Make a choice"))
-fnc(choice)
-
-
+# This program adds two numbers
+num1 = 1.5
+num2 = 6.3
+# Add two numbers
+sum = float(num1) + float(num2)
+# Display the sum
+print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))
